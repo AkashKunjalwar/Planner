@@ -1,0 +1,49 @@
+.contentDiv{
+    display: inline-block;
+    width: 90%;
+    margin: 2rem auto;
+    border-style: groove;
+    border-radius: 15px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.eachPlanner{
+    width: 20%;
+    height: 100px;
+    border-style: groove;
+    border-radius: 10px;
+    margin: 1rem;
+    display: inline-block;
+    box-shadow: 3px 4px;
+}
+
+.eachPlanner input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    height: 2rem;
+    background-color: #EDEEF0;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+    font-size: 20px;
+}
+
+.eachPlanner button{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: darkgreen;
+    color: white;
+}
+
+.createdPlanners{
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+   .eachPlanner{
+     min-width: 200px;
+   }
+}

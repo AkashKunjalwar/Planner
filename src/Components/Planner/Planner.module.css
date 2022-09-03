@@ -1,0 +1,44 @@
+.plannerDiv{
+    margin: 1rem auto;
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: #D19A36;
+    width: 90%;
+}
+
+.plannerMiddleContent{
+    display: flex;
+}
+
+.leftSidePlanner{
+    flex: 50%;
+}
+
+.rightSidePlanner{
+    flex: 50%;
+}
+
+.submit{
+    width: 25%;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    margin-bottom: 1rem;
+    margin-right: 25%;
+}
+
+.delete{
+    width: 25%;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .plannerMiddleContent{
+        display: block;
+    }
+}

@@ -1,0 +1,37 @@
+.dateAndDayDiv{
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.dateAndDayDiv label{
+    font-size: 20px;
+}
+
+.dateDiv{
+    flex: 50%;
+}
+
+.dateDiv input{
+    background-color: transparent;
+    border-style: none;
+    font-size: 20px
+}
+
+.dayDiv{
+    flex: 50%;
+}
+
+.dayDiv input{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .dateAndDayDiv{
+        display: block;
+        text-align: left;
+        padding-left: 1rem;
+    }
+}

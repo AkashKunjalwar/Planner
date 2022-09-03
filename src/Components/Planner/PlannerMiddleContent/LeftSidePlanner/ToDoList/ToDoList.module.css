@@ -1,0 +1,63 @@
+.toDoListDiv{
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: 2px;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.form{
+    margin: 1rem;
+}
+
+.form input{
+    width: 60%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+}
+
+.form button{
+    width: 20%;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    padding: 4px;
+    background-color: green;
+    color: white;
+}
+
+.output{
+    width: 95%;
+    margin: 2rem auto;
+    border-style: groove;
+    border-radius: 0.5rem;
+    height: 385px;
+    overflow-y: scroll;
+}
+
+.output ul li{
+    list-style: none;
+    text-align: left;
+    border-bottom-style: groove;
+    padding-bottom: 0.5rem;
+    width: 95%;
+    font-size: 1.25rem;
+}
+
+.clearAll{
+    width: 15%;
+    min-width: 100px;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.strikeThrough{
+    text-decoration: line-through;
+}
